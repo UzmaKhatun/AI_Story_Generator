@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 import os
 
-# Replace this with your Google Apps Script webhook URL
+# load webhook URL
 GOOGLE_SHEET_WEBHOOK_URL = os.getenv("G_URL")
 
 # Page configuration with enhanced styling
