@@ -66,4 +66,4 @@ streamlit run app.py
 ## 👩‍💻 Author
 Uzma Khatun – [LinkedIn]() | [GitHub]()
 
-### Made with ❤️
+## <p align="center">Made with ❤️</p>
