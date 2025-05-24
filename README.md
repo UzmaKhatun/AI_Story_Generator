@@ -21,24 +21,24 @@ A web app that generates imaginative, unique stories based on your selected genr
 ---
 
 ## 🛠️ Tech Stack
-|Tool | Purpose |
-|Streamlit |	Frontend UI for story customization and output |
-|Groq | LLM	Story generation engine (via API) |
-|Dotenv	|API key protection |
-|Tempfile |	Dynamic file download handling |
-|Python	| Core scripting and logic |
+| Tool           | Purpose                                |
+|----------------|----------------------------------------|
+| **Python**     | Core scripting and logic               |
+| **Streamlit**  | Frontend UI for story customization and output|
+| **Groq LLM**   | Fast and intelligent language model    |
+| **Dotenv**     |API key protection                      |
+| **Tempfile**   | Dynamic file download handling         |
 
-⚙️ Setup Instructions
+----
+
+## ⚙️ Setup Instructions
 1. Clone the Repo
-bash
-Copy
-Edit
-git clone https://github.com/uzma-khatun/ai-story-generator.git
-cd ai-story-generator
+`` bash
+ git clone https://github.com/uzma-khatun/ai-story-generator.git
+ cd ai-story-generator
+
 2. Install Dependencies
 bash
-Copy
-Edit
 pip install -r requirements.txt
 3. Add Your Groq API Key
 Create a .env file in the root directory and add:
@@ -52,20 +52,18 @@ bash
 Copy
 Edit
 streamlit run app.py
-📦 Upcoming Features
+
+---
+
+## 📦 Upcoming Features
 ✅ PDF download support
+- Login/Signup for user-based story tracking
+- Prompt fine-tuning for more creative control
+- Analytics dashboard for user activity
 
-✅ Login/Signup for user-based story tracking
+----
 
-🧠 Prompt fine-tuning for more creative control
+## 👩‍💻 Author
+Uzma Khatun – [LinkedIn]() | [GitHub]()
 
-📊 Analytics dashboard for user activity
-
-👩‍💻 Author
-Uzma Khatun – LinkedIn | GitHub
-
-⭐ Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to improve.
-
-📜 License
-This project is licensed under the MIT License – see the LICENSE file for details.
+#### Made with ❤️
