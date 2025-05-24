@@ -44,7 +44,7 @@ A web app that generates imaginative, unique stories based on your selected genr
 ```
 
 3. ***Add Your Groq API Key***
-Create a .env file in the root directory and add:
+- Create a .env file in the root directory and add:
 ```
 GROQ_API_KEY=your_api_key_here
 ```
