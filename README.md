@@ -55,7 +55,7 @@ streamlit run app.py
 ---
 
 ## 📦 Upcoming Features
-✅ PDF download support
+- PDF download support
 - Login/Signup for user-based story tracking
 - Prompt fine-tuning for more creative control
 - Analytics dashboard for user activity
