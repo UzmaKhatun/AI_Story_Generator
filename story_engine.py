@@ -27,7 +27,7 @@ def generate_story(genre, theme, characters, style="normal", use_emojis=False):
 
     try:
         response = client.chat.completions.create(
-            model="llama3-8b-8192",  # You can change this to a model Groq supports
+            model="llama-3.1-8b-instant",  # You can change this to a model Groq supports
             messages=[
                 {"role": "system", "content": "You are a creative story writer."},
                 {"role": "user", "content": prompt},
